@@ -1,0 +1,164 @@
+{
+  "images" : [
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "filename" : "appicon.png",
+      "scale" : "1x",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "filename" : "appicon-1.png",
+      "scale" : "2x",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "filename" : "appicon-2.png",
+      "scale" : "2x",
+      "subtype" : "retina4",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "736h",
+      "filename" : "appicon-3.png",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "minimum-system-version" : "8.0",
+      "scale" : "3x",
+      "subtype" : "736h",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "667h",
+      "filename" : "appicon-4.png",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "filename" : "appicon-5.png",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "filename" : "appicon-6.png",
+      "minimum-system-version" : "7.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x",
+      "filename" : "1536iPadPortraitiOS789_768x1024pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "filename" : "1536iPadPortraitiOS789_768x1024pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "1536iPadPortraitWOSBiOS56_768x1004pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "1536iPadPortraitWOSBiOS56_768x1004pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "1536iPadPortraitiOS56_768x1024pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "1536iPadPortraitiOS56_768x1024pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "subtype" : "1366h",
+      "filename" : "1536iPadProPortrait12_1024x1366pt@2x.png",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

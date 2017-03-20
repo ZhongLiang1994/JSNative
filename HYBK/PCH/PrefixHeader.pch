@@ -1,0 +1,70 @@
+//
+//  PrefixHeader.pch
+//  HYBK
+//
+//  Created by 钟亮 on 2017/1/5.
+//  Copyright © 2017年 zhongliang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//屏幕的宽高
+#define kScreenW ([UIScreen mainScreen].bounds.size.width)
+#define kScreenH ([UIScreen mainScreen].bounds.size.height)
+#define kScreen ([UIScreen mainScreen].bounds)
+
+#define kSelfH self.frame.size.height
+#define kSelfW self.frame.size.width
+
+#define kSelfViewW self.view.frame.size.width
+#define kSelfViewH self.view.frame.size.height
+
+#define kSelfcontentViewW self.contentView.frame.size.width
+#define kSelfcontentViewH self.contentView.frame.size.height
+///减去导航条和tabbar
+#define kMianNavTabbarH kScreenH-64-49
+//减去tabar
+#define KMianTabbarH kScreenH-49
+///减去导航条
+#define kMianNavH kScreenH-64
+///加上tabbar
+#define kMianPlusTabbarH kScreenH+49
+
+
+#define kWeakSelf __weak typeof(self) weakSelf = self
+
+
+#pragma mark - URL
+//首页链接
+#define HOMEURL @"http://hengyinbaika.com/pages/index.jsp"
+
+//系统类库
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
+
+//JavaScriptCore库
+#import <JavaScriptCore/JavaScriptCore.h>
+
+
+#import "AutoImageSize.h"
+#import "NJInteraction.h"
+#import "Cookies.h"
+
+//首先导入Catagory类 的头文件
+#import "NSString+encryption.h"
+#import "UIAlertController+_NetAlert.h"
+//第三方库
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+
+#endif /* PrefixHeader_pch */
